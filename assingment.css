@@ -24,37 +24,71 @@ body{
 	font-family: sans-serif;
 }
  nav{
- 	background: green;
+ 	background: #334F64;
  	height: 80px;
  	width: 100%;
  }
 nav ul{
 	text-align: center;
 	display: inline-flex;
-	margin: 23pz;
+	margin: 10px;
+	padding-top: 1px;
+
 }
 nav ul li a{
 	display: inline-grid;
-	margin: 15px;
+	margin: 10px;
 	color: #fff;
-	padding: 10px;
-	width: 200px;
+	padding: 15px;
+	width: 120px;
 	
 	
 }
 nav ul li a:hover
 {
-	background: black;
+	background: #fff;
 	border-radius:2px;
+	color:black;
 }
 
 label.logo{
 	color: white;
-	font-size: 20px;
-	line-height: 5px;
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: bold;
+	padding:30px;
+	margin: 10px;
 }
 
+.active{
+	padding:70px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #fff;
+	font-size:20pt;
+}
 
+.button{
+	padding: 50px;
+	top: 60%;
+
+}
+
+.text{
+	border: 1px solid;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.7s ease;
+}
+
+.text:hover{
+
+	background: #fff;
+	border-radius:2px;
+	color:black;
+
+}
 /*css for contact*/
 *{
 	box-sizing: border-box;
