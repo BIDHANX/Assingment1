@@ -106,17 +106,45 @@ label.logo{
 .mango{
 	text-align: center;
 	font-family: sans-serif;
-	padding-top: 5px;
+	padding-top: 10px;
 	color: azure;
 	font-size: 25px;
 }
 
+nav ul{
+	text-align: center;
+	display: inline-flex;
+	margin: 10px;
+	padding-top: 1px;
+}
 	
-	
-	
-	
+nav ul li a{
+	display: inline-grid;
+	margin: 10px;
+	color: #fff;
+	padding: 15px;
+	width: 120px;
+}
 
-	
+label.symbol{
+	color: white;
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: bold;
+	padding:30px;
+	margin: 10px;
+}
+form h3{
+	color: black;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	padding: 2vw 4vw;
+	max-width: 600px;
+	border-radius: 10px;
+	background: #fff;
+}
 
 
-	
