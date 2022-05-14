@@ -4,10 +4,9 @@
 	box-sizing: border-box;
 	padding: 0%;
 	margin: 0%;
-	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
-
+	
 }
 
 .container{
@@ -23,6 +22,14 @@
 }
 body{
 	font-family: sans-serif;
+	margin: 0px;
+	position: sticky;
+	height: 100%;
+	width: 100%;
+	background-size: auto;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
 }
  nav{
  	background: #334F64;
@@ -171,7 +178,7 @@ form input{
 	
 }
 
-form button{
+.submitButton{
 	padding: 4px;
 	background:#03AC13;
 	color: white;
@@ -342,5 +349,20 @@ label.css{
 	font-weight: bold;
 	padding:30px;
 	margin: 10px;
+
+}
+
+.webSite{
+	background: #FFC9A5;
+	height: 40px;
+	text-align: center;
+}
+
+
+
+.student{
+	font-size: 20px;
+	line-height: 30px;
+	padding: 15px;
 
 }
