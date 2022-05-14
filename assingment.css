@@ -4,9 +4,9 @@
 	box-sizing: border-box;
 	padding: 0%;
 	margin: 0%;
+	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
-	box-sizing: border-box;
 }
 
 .container{
@@ -27,6 +27,7 @@ body{
  	background: #334F64;
  	height: 80px;
  	width: 100%;
+
  }
 nav ul{
 	text-align: center;
@@ -89,6 +90,8 @@ label.logo{
 	color:black;
 
 }
+
+
       /*css for contact*/
 *{
 	box-sizing: border-box;
@@ -249,4 +252,33 @@ label.style{
 
 .wrapper .item h1{
 	color:#fff;
+}
+
+
+/*css for blog*/
+
+label.box{
+	color: white;
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: bold;
+	padding:30px;
+	margin: 10px;
+
+}
+
+.paper{
+	display: grid;
+	padding: 10px;
+	background: black;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 50px;
+}
+
+.grid{
+	background-color: rosybrown;
+	border: 2px sold greenyellow;
+	padding: 20px;
+	font-size: 40px;
+	text-align: center;
 }
