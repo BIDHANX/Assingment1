@@ -7,6 +7,7 @@
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style: none;
+
 }
 
 .container{
@@ -209,7 +210,7 @@ label.style{
 	margin: 0 auto;
 	padding: 100px;
 	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-	grid-gap: 10px;
+	grid-gap: 20px;
 	box-sizing: border-box;
 	height: auto;
 
@@ -267,18 +268,79 @@ label.box{
 
 }
 
-.paper{
-	display: grid;
-	padding: 10px;
-	background: black;
-	grid-template-columns: auto auto auto;
-	grid-column-gap: 50px;
+
+.hi{
+	background-image: url(ballon.jpg);
+	width:100%;
+	height:100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
 }
 
-.grid{
-	background-color: rosybrown;
-	border: 2px sold greenyellow;
-	padding: 20px;
-	font-size: 40px;
+
+.paper{
+	display: grid;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 60px;
+	grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+	grid-gap: 20px;
+	box-sizing: border-box;
+	height: auto;
+}
+
+.paper .grid{
+	position: relative;
+	padding: 20px 40px 40px;
+	overflow: hidden;
+	border-radius: 20px;
 	text-align: center;
+	background: #fff;
+}
+
+.paper .grid:nth-child(1){
+	background: linear-gradient(10deg,#FBCA88,#EF69AD);
+	
+}
+	
+.paper .grid:nth-child(2){
+	background: linear-gradient(10deg,#ABE5E6,#7062F0);
+
+}
+
+.paper .grid:nth-child(3){
+	background: linear-gradient(10deg,#92F1D5,#ABF6BD);
+
+}
+
+
+.paper .grid p{
+	font-size: 26px;
+	color: #fff;
+}
+
+.paper .grid h2{
+	color:#fff;
+}
+
+.paper .grid:hover{
+	background: black;
+	border-radius: 2px ;
+}
+
+
+
+/*css for site report*/
+
+
+label.css{
+	color: white;
+	font-size: 30px;
+	line-height: 20px;
+	font-weight: bold;
+	padding:30px;
+	margin: 10px;
+
 }
