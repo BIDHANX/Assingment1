@@ -100,6 +100,17 @@ label.logo{
 }
 
 
+@media (max-width: 500px){
+	body{
+		display: block;
+		height: 350px;
+
+	}
+
+
+}
+
+
       /*css for contact*/
 *{
 	box-sizing: border-box;
@@ -355,7 +366,7 @@ label.css{
 .webSite{
 	background: #FFC9A5;
 	height: 40px;
-	text-align: center;
+	text-align:center;
 }
 
 
